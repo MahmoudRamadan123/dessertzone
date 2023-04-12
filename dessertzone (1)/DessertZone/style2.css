@@ -1,0 +1,281 @@
+
+#menu-btn{
+    font-size: 3rem;
+    color: #745D43;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .btn{
+    font-family: initial;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: .1rem;
+    color:rgb(187, 44, 46);
+    background: none;
+    border: double rgb(187 44 46);
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-size: 18px;
+    width: 150px;
+
+  }
+  
+  .btn:hover{
+    border-radius: .1rem;
+    border: solid rgb(206, 157, 23);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  
+  .header .logo{
+    color:  rgb(187 44 46);
+    margin: 0%; padding: 0%;
+    margin-left:90px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: initial;
+    text-decoration: none;
+  }
+  
+  .header .logo:hover {
+    color:rgb(206, 157, 23);
+    text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  
+  .header .navbar a{
+    margin:0 1rem;
+    font-family: initial;
+    font-size: 15px;
+    color: rgb(187 44 46);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .header .navbar a:hover{
+    color:#745D43;
+    border-bottom: .1rem solid  rgb(206, 157, 23);
+    padding-bottom: .5rem;
+    text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  
+  .header .progress-container {
+    position: fixed;
+    top: 85px; left: 0; right: 0;
+    z-index: -1;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    height: 3px;
+    background: rgb(197, 20, 20);
+    width: 0%;
+  }
+  
+  body{
+    margin-top: 120px;
+  }
+  
+  
+      /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    width: 25%;
+    height: 250px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid  rgb(197, 20, 20);
+    border-radius: 50px;
+    box-shadow: 0 0 0 1px rgb(197, 20, 20);
+  }
+  
+  form label {
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 1px #ccc;
+    resize: none;
+  }
+  
+  form input[type="submit"] {
+    width: 50px;
+    padding: 0.5rem;
+    margin: auto;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: rgb(197, 20, 20);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: white;
+    border: 2px solid rgb(197, 20, 20);
+    color: rgb(197, 20, 20);
+  }
+  
+  /* Comment and reply styles */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    width: 75%;
+    padding: 1rem;
+    border: 1px solid  rgb(197, 20, 20);
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 1px  rgb(197, 20, 20);
+  }
+  
+  li p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  
+  li strong {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-size: 14px;
+  }
+  
+  li em {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #666;
+    margin-right: 0.5rem;
+    font-size: 10px;
+  }
+  
+  li a {
+    font-size: 0.8rem;
+    color: #008CBA;
+    text-decoration: none;
+    margin-left: 0.5rem;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Reply form styles */
+  #replyform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 35%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid  rgb(197, 20, 20);
+    border-radius: 50px;
+    box-shadow: 0 0 0 1px  rgb(197, 20, 20);
+  }
+  
+  .reply-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #replyform input[type="text"],
+  #replyform textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 1px #ccc;
+    resize: none;
+  }
+  
+  /* Footer starts */
+  
+  .footer .logo {
+    color: #745D43;
+    margin: 0%; padding: 0%;
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
+  
+  .footer .logo:hover {
+    color: goldenrod;
+    text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  
+  .footer .logo i {
+    padding-left: 1rem;
+  }
+  
+  .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-right: 0;
+    color: rgb(187, 44, 46);
+  }
+  
+  .footer .box-container .box a {
+    display: block;
+    font-size: 18px;
+    font-family: calibri;
+    text-decoration: none;
+    padding-top: 20px;
+    color: #000000;
+  }
+  
+  .footer .box-container .box a i {
+    padding-right: 20px;
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 20px;
+  }
+  
+  .footer .credit {
+    font-size: 18px;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    color: #745D43; 
+  }
+  
+  .footer .credit span {
+    border-bottom: .1rem solid goldenrod;
+  }
+  
+  .footer .credit span:hover {
+    border-bottom: .4rem dotted goldenrod; 
+  }
+  
+  /* Footer ends */
+  
